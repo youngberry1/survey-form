@@ -1,32 +1,97 @@
+/* General body styling */
 body {
     background: #a1cfdf;
-}
-
-h1 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Title styling */
+  h1 {
     text-align: center;
-    font-size: 4vw;
-}
-
-.body-background {
-    background: #ffffff ;
-    height: 100vh;
-    width: 55%;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Centered form container */
+  .form-container {
+    background: white;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
     border-radius: 10px;
-    margin: 3% 0 0 25%;
-}
-
-p {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Paragraph center */
+  p {
     text-align: center;
-}
-
-.input:focus {
-    color: black;
-}
-
-.space {
-    padding: 15px;
-}
-
-.emotion {
-    display: absolute;
-}
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Input and label styling */
+  .form-group {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  fieldset {
+    border: none;
+    margin-bottom: 1rem;
+    padding: 0;
+  }
+  
+  legend {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="checkbox"],
+  input[type="radio"] {
+    margin-right: 0.5rem;
+  }
+  
+  /* Centering submit button */
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    background-color: #3b9ddf;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2c88c4;
+  }
+  
