@@ -1,66 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Good Vibes Form</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Good Vibes Form</title>
+  <link rel="stylesheet" href="styles.css">
+
 <body>
-    <header>
-      <h1>Good Vibes Form</h1>
-    </header>
-  
-    <main>
-      <form class="form-container">
-        <p>Tell us something positive that happened to you today.</p>
-  
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="Enter your name">
-          
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="Enter your email address">
-  
-          <label for="scale">On a scale of 1–10, how good was it?</label>
-          <input type="number" id="scale" name="scale" placeholder="Enter a number between 1 and 10" min="1" max="10">
-        </div>
-  
-        <div class="form-group">
-          <label for="where">Where did it happen?</label>
-          <select id="where" name="where">
-            <option value="home">At home</option>
-            <option value="commute">On my commute</option>
-            <option value="work">At work</option>
-            <option value="street">On the street</option>
-            <option value="other">Other</option>
-          </select>
-        </div>
-  
-        <fieldset class="form-group">
-          <legend>At what time of day did it happen?</legend>
-          <label><input type="radio" name="time" value="morning"> Morning</label>
-          <label><input type="radio" name="time" value="afternoon"> Afternoon</label>
-          <label><input type="radio" name="time" value="evening"> Evening</label>
-        </fieldset>
-  
-        <fieldset class="form-group">
-          <legend>What emotions did you experience? (Select all that apply)</legend>
-          <label><input type="checkbox" name="emotions" value="excited"> Excited</label>
-          <label><input type="checkbox" name="emotions" value="humbled"> Humbled</label>
-          <label><input type="checkbox" name="emotions" value="elated"> Elated</label>
-          <label><input type="checkbox" name="emotions" value="loved"> Loved</label>
-          <label><input type="checkbox" name="emotions" value="enthusiastic"> Enthusiastic</label>
-        </fieldset>
-  
-        <div class="form-group">
-          <label for="experience">Please describe your positive experience.</label>
-          <textarea id="experience" name="experience" placeholder="Enter your experience here..."></textarea>
-        </div>
-  
-        <div class="form-group center">
-          <button type="submit">Submit</button>
-        </div>
-      </form>
-    </main>
-  </body>
-  
+  <header>
+    <h1>Good Vibes Form</h1>
+  </header>
+
+  <main>
+    <form class="form-container">
+      <p>Tell us something positive that happened to you today.</p>
+
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address">
+
+        <label for="scale">On a scale of 1–10, how good was it?</label>
+        <input type="number" id="scale" name="scale" placeholder="Enter a number between 1 and 10" min="1" max="10">
+      </div>
+
+      <div class="form-group">
+        <label for="where">Where did it happen?</label>
+        <select id="where" name="where">
+          <option value="home">At home</option>
+          <option value="commute">On my commute</option>
+          <option value="work">At work</option>
+          <option value="street">On the street</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <fieldset class="form-group">
+        <legend>At what time of day did it happen?</legend>
+        <label><input type="radio" name="time" value="morning"> Morning</label>
+        <label><input type="radio" name="time" value="afternoon"> Afternoon</label>
+        <label><input type="radio" name="time" value="evening"> Evening</label>
+      </fieldset>
+
+      <fieldset class="form-group">
+        <legend>What emotions did you experience? (Select all that apply)</legend>
+        <label><input type="checkbox" name="emotions" value="excited"> Excited</label>
+        <label><input type="checkbox" name="emotions" value="humbled"> Humbled</label>
+        <label><input type="checkbox" name="emotions" value="elated"> Elated</label>
+        <label><input type="checkbox" name="emotions" value="loved"> Loved</label>
+        <label><input type="checkbox" name="emotions" value="enthusiastic"> Enthusiastic</label>
+      </fieldset>
+
+      <div class="form-group">
+        <label for="experience">Please describe your positive experience.</label>
+        <textarea id="experience" name="experience" placeholder="Enter your experience here..."
+          maxlength="200"></textarea>
+      </div>
+
+      <div class="form-group center">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </main>
+</body>
